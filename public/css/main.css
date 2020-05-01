@@ -1,0 +1,189 @@
+
+/*------------------Layout CSS------------------*/
+
+html {
+    background-color: #F9F9F9;
+}
+
+body {
+    font-family: 'Gothic A1', sans-serif;
+
+}
+
+
+
+.column {
+    padding: 0;
+}
+
+
+
+.main {
+    position: relative;
+    margin: 0 50px 0 50px;
+    height: 100%;
+}
+
+
+/*------------------Typography CSS------------------*/
+
+h1 {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.headertitle {
+    text-align: center;
+    margin-bottom: 0 !important;
+    margin-top: 35px;
+}
+
+
+.headerSubtitle {
+    font-weight: 300;
+    font-size:25px;
+    color: #bbb;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+/*------------------Application CSS------------------*/
+
+.application {
+    max-width: 1249px;
+    max-height: 600px;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background: #F9F9F9;
+    box-shadow: 0px 9px 70px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.inputPanel {
+    max-width: 450px;
+    margin: auto;
+    border-radius: 0 0 20px 20px;
+}
+
+.input {
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 200
+}
+
+.fa-undo-alt {
+    position: absolute;
+    display: none;
+    left: 95%;
+    top: 6%;
+    font-size: 25px;
+    cursor: pointer;
+    color: gainsboro;
+}
+
+
+input:focus, textarea:focus, select:focus{
+    outline: none !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+
+.gameHeaders {
+    position: absolute; 
+    display:none;
+    z-index: 1;
+    transform: rotateZ(-90deg);
+    font-size: 24px;
+    font-weight: 400;
+    color: #eb4d558c;
+    box-shadow: black;
+}
+
+.gameHeaders:hover {
+    cursor: default;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.checkboxDiv {
+    padding: 20px;
+}
+
+/*------------------Tiles CSS------------------*/
+
+.title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.notification {
+    border-radius: 15px;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.tile.is-parent {
+    padding: 10px;
+}
+
+.tile.is-ancestor {
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1249px;
+}
+
+li {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.content {
+    max-width: 680px;
+}
+
+/*--wide tile--*/
+
+.widePanelContainer {
+    width: 880px;
+}
+
+.is-wide-panel {
+    height: 400px;
+    background-color: #FF5151;
+    color: white;
+}
+
+
+/*--narrow tile--*/
+
+.narrowPanelContainer {
+    width: 430px;
+}
+
+.is-narrow-panel {
+    height: 400px;
+    background-color: #9818D6;
+    color: white;
+}

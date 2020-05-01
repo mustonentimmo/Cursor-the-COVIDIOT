@@ -1,0 +1,22 @@
+{
+  "name": "cursor-the-covidiot",
+  "version": "1.0.0",
+  "description": "COVID virus web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustonentimmo/Cursor-the-COVIDIOT"
+  },
+  "author": "Timmo Mustonen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustonentimmo/Cursor-the-COVIDIOT/issues"
+  },
+  "homepage": "https://github.com/mustonentimmo/Cursor-the-COVIDIOT#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

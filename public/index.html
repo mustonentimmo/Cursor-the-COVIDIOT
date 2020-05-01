@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='author' content='Timmo Mustonen'>
+    <title>Cursor the COVIDIOT</title>
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,700&display=swap" rel="stylesheet"> 
+    <!-- Costum CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+
+    <div class="columns main">
+        <div class="column is-12">
+            <div class="container headertitle">
+                <h1>Cursor the <span style='font-weight: 600'>COVIDIOT</span></h1>
+                <h2 class='headerSubtitle'>Someone who ignores health advice about Covid-19</h2>
+            </div>
+            <div class="container application">
+                <div class="box inputPanel">
+                    <h3 style='padding:15px;font-weight: 600;'>Participants</h3>
+                    <input class="input" type="number" placeholder="5" min='0'>
+                
+                    <div class='checkboxDiv'>
+                        <label class="checkbox">
+                            <input class='hardMode' type="checkbox" name="hardMode">
+                            Hard mode
+                        </label>
+                    </div>
+
+                    
+                    <button class="button is-danger is-rounded">PLAY</button>
+
+                    <!-- Display after array is empty -->
+                    
+                    <h5 style='color: rgb(200, 200, 200); font-size: 12px; padding: 20px 0;margin-top: 20px;font-weight: 200;'><span style='display: block;'>Created by: </span>Timmo Mustonen</h5>
+                </div>
+
+                <div class="gameOver" style='padding: 200px;display: none;'>
+                    <h1>Game over!</h1>
+                    <h3 class="time"></h3>
+                </div>
+
+                <h1 class='gameHeaders'style='top: 50%;'>SPAWNING</h1>
+
+                <canvas class="gameCanvas" width="1249" height="600"></canvas>
+
+
+    
+            </div>
+
+            <div class="container headertitle">
+                <h1>Dont be like your cursor!</h1>
+                <h2 class='headerSubtitle'>Learn more about COVID</h2>
+            </div>
+
+            <div class="container tile is-ancestor panels">
+                <div class="widePanelContainer">
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-wide-panel">
+                            <p class="title">Prevent Spreading</p>
+                            <p class="subtitle">What can you do to prevent spreading COVID</p>
+                            <div class="content">
+                                <ul>
+                                    <li>Maintain a safe distance from anyone who is coughing or sneezing</li>
+                                    <li>Clean your hands often. Use soap and water, or an alcohol-based hand rub</li>
+                                    <li>Stay home if you feel unwell(Check symptoms from right side of the panel)</li>
+                                </ul>
+                            </div>
+                     </div> 
+                     <div class="tile is-parent">
+                        <article class="tile is-child notification is-wide-panel" style='background-color: #FFA41B;'>
+                            <p class="title">Myths</p>
+                            <p class="subtitle">Most common myths</p>
+                            <div class="content">
+                              <ul>
+                                  <li>The new coronavirus was deliberately created or released by people - <b>FALSE</b></li>
+                                  <li>Ordering or buying products shipped from overseas will make a person sick - <b>FALSE</b></li>
+                                  <li>A vaccine to cure COVID-19 is available - <b>FALSE</b></li>
+                              </ul>
+                            </div>
+                
+                     </div>
+        
+                </div>
+                <div class="narrowPanelContainer">
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-narrow-panel">
+                            <p class="title">Symptoms</p>
+                            <p class="subtitle">Learn about symptoms</p>
+                            <div class="content">
+                                <ul>
+                                    <li>Fever</li>
+                                    <li>Dry cough</li>
+                                    <li>Tiredness</li>
+                                    <li>Aches and pains</li>
+                                    <li>Sore throat</li>
+                                </ul>
+                            </div>
+                          </article>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+    <!-- Scripts -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <script src='/javaScript/gameLogic.js'></script>
+</body>
+</html>
