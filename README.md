@@ -1,5 +1,7 @@
 # Cursor-the-COVIDIOT
 
+## gotoAndPlay praktikale kandideerimiseks tehtud proovitöö 
+
 ### Rakenduse info:
 
 **Autor:** Timmo Mustonen
